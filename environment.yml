@@ -15,4 +15,4 @@ dependencies:
   - plotnine
   - bokeh
   - ipykernel
-  - beautifulsoup
+  - beautifulsoup4
