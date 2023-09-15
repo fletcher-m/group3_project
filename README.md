@@ -1,40 +1,56 @@
-# squirrel
-An basic repository with an environment and .gitignore
+# Beautiful Soup Tutorial
+This repository contains a Jupyter notebook tutorial on how to use the BeautifulSoup library for parsing structured data from webpages.
+```
+                     (
+                  )    )
+               _.(--"("""--.._
+              /, _..-----).._,\
+             |  `'''-----'''`  |
+              \               /
+               '.           .'
+                 '--.....--'
 
-## Central Park Squirrel Census
+                ___           .-""-.
+               /   '''---...-'.'  `\\
+               \___...---"""-._-.__//
+                               '---'
+```
 
-![squirrel!](https://imgs.6sqft.com/wp-content/uploads/2018/10/03124715/squirrel-Central-Park.jpg)
+### Audience
+Beginer to intermediate Python users interested in learning Beautiful Soup basics.
 
-https://www.thesquirrelcensus.com
+### Assumptions
+1. The website is static. 
+2. No additional authentication is required to access the data.
+3. The website allows public scraping.
+4. There are no other means of extracting data (e.g., through APIs or downloadable data files). <br>
 
-### Explore the data
+*Note: the tutorial does not cover parsing of a dynamic website or site with enforced authentication requirements*
 
-The survey data was originally collected and stored in to files available at this link:
+### Data used in the tutorial
+[Wikipedia page on wildfires in California](https://en.wikipedia.org/wiki/List_of_California_wildfires) <br>
+*Note: wikipedia data was used for demo and learning purposes. It might not be the most efficient way to retrieve data.*
 
-[https://www.thesquirrelcensus.com/data](https://www.thesquirrelcensus.com/data)
+## Tutorial
+#### Let's cook some soup: 
+[Jupyter Notebook with Beatufil Soup Demo](https://github.com/fletcher-m/group3_project/blob/main/nbs/beautiful_soup_demo.ipynb)
 
-For this exercise, we will use an integrated `.csv` file that combines data and is a little more structured than the raw `.csv`. This file was downloaded from [kaggle.com](http://www.kaggle.com) at this link:
+## Learn More
 
-[2018 survey data on Kaggle](https://www.kaggle.com/datasets/dominoweir/nyc-2018-squirrel-census)
+[About Beautiful Soup](https://realpython.com/beautiful-soup-web-scraper-python)
 
-The downloaded file is already added to the class repository in the `data/` folder as as `2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv`. You can copy this folder to your new repository on your local machine
+[Beautiful Soup: Build a Web Scraper With Python](https://realpython.com/beautiful-soup-web-scraper-python/#dynamic-websites)
 
-### Setting up for some squirrely analyses:
+[Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc)
 
-1. Create a short name for your group and a new repository for this exercise. Clone the repo to your local machines. 
+[Web Scraping With Beautiful Soup](https://www.topcoder.com/thrive/articles/web-scraping-with-beautiful-soup)
 
-1. Load the combined datafile (either using the url or from your repository's `../data` directory) using `pd.read_csv()`.
-
-1.  Use standard `df.info()`, `df.head()`, `df.describe()` to explore the data. 
-
-1. Read over the user guide here to understand what the various columns contain.
-
-[Survey Data User Guide](https://www.dropbox.com/s/cs293zzz1li79nn/user-guide_data-sets_nyc-open-data-week-multi-park-squirrel-count.pdf?dl=0)
-
-Additional information on the survey and stories are available here:
-
-[https://www.thesquirrelcensus.com/data](https://www.thesquirrelcensus.com/data)
-
-1. Work together to make a new `.ipynb` in your repo that contains an analysis and simple visualization of the data!
-
+## Acknowledgments
+Briana Barajas, Carly Caswell, Fletcher McConnell, Oksana Protsukha, prof. Kelly Caylor, Ph.D. candidate Anna Boser
+```
+ ^ ^
+(O,O)
+(   )
+-"-"---- 
+```
 
